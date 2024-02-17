@@ -20,6 +20,8 @@ body {
   margin-top: 20vh;
   color:rgb(41, 53, 44);
   height: max-content;
+  width: 100vw;
+
   margin-bottom: 30vh;
 } 
 
@@ -60,7 +62,8 @@ a {
 .header{
   padding-top: 40vh;
   background-color:rgb(2, 3, 26);
-  height: 90vh;
+  height: 100vh;
+  width: 100vw;
   transition: opacity 0.1s;
 
 }
@@ -88,6 +91,7 @@ a {
 }
 
 .contactwrapper{
+  width: 100vw;
   background-color:rgb(179, 210, 244);
 }
 
