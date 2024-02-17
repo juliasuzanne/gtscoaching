@@ -70,7 +70,7 @@ li{
 }
 
 a:hover{
-  color:rgb(109, 120, 102);
+  color:rgba(70, 73, 43, 0.828);
   /* font-family: "Times Sans Serif"; */
   font-style: oblique;
 
@@ -82,7 +82,7 @@ p {
   padding-left: 12%;
   padding-right: 12%;
   color:rgba(70, 73, 43, 0.828);
-  font-family: "Times Sans Serif";
+  font-family: " Sans Serif";
   font-style: oblique;
   font-size: 2.5vw;
 

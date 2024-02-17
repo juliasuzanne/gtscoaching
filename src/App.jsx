@@ -72,7 +72,7 @@ function App() {
           approach, with
           <a> HIGH TOUCH </a>
           integrated consultants, focusing on
-          <a> SAVING YOUR COSTS AND ENEGRY </a>
+          <a> SAVING YOUR COSTS AND ENERGY </a>
           so you can focus on what matters.{" "}
         </p>
       </div>
