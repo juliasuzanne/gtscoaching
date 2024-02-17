@@ -130,6 +130,7 @@ li{
 }
 
 h4{
+  font-size: clamp(25px, 4vw, 400px);
 
   font-family: 'Motterdam-K74zp';
   color: rgba(70, 73, 43, 0.828);
