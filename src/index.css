@@ -20,6 +20,7 @@ body {
   margin-top: 20vh;
   color:rgb(41, 53, 44);
   height: fit-content;
+  margin-bottom: 40vh;
 } 
 
 
@@ -40,7 +41,7 @@ a {
 
   font-family: "Maison";
   font-size: 5vw;
-  color:rgb(102, 103, 127);
+  color:rgb(50, 76, 117);
   border-right: .15em solid orange; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
@@ -77,7 +78,7 @@ a {
   margin: auto;
   padding-top: 30vh;
   text-align: left;
-  color:rgba(70, 73, 43, 0.828);
+  color:rgba(19, 108, 45, 0.828);
 }
 
 .contactwrapper{
@@ -133,7 +134,7 @@ h4{
   font-size: clamp(25px, 4vw, 400px);
 
   font-family: 'Motterdam-K74zp';
-  color: rgba(70, 73, 43, 0.828);
+  color: rgba(71, 164, 37, 0.828);
 }
 
 
@@ -143,6 +144,8 @@ text-decoration-color: rgba(0, 128, 255, 0.125);
 text-decoration-thickness: 40px; */
 
 color:rgba(70, 73, 43, 0.828);
+ font-size: clamp(35px, 4.8vw, 400px);
+
   /* font-family: "Maison"; */
 }
 
@@ -159,7 +162,7 @@ p {
 }
 
 #rhizome {
-  fill: rgba(193, 158, 122, 0.315);
+  fill: rgba(32, 183, 52, 0.315);
   align-content: center;
 
 

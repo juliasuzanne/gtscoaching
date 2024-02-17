@@ -1,21 +1,9 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import AnimatedCursor from "react-animated-cursor";
+import ScrollAnimation from "react-animate-on-scroll";
 
-import {
-  Animator,
-  Fade,
-  FadeIn,
-  MoveIn,
-  MoveOut,
-  ScrollContainer,
-  ScrollPage,
-  Sticky,
-  StickyIn,
-  ZoomIn,
-  ZoomOut,
-  batch,
-} from "react-scroll-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import { EmailForm } from "./EmailForm";
@@ -27,29 +15,26 @@ function App() {
   return (
     <>
       <AnimatedCursor innerSize={8} outerSize={8} color="61,51,57" outerAlpha={0} innerScale={0.7} outerScale={0.6} />
+      <ScrollAnimation initiallyVisible="true" animateOut="fadeOut" animateIn="fadeIn">
+        <div className="header">
+          <h2 className="typewriter">GROWTH TALENT SOLUTIONS</h2>
 
-      <ScrollContainer>
-        <ScrollPage>
-          <Animator animation={(Fade(), MoveOut(0, -700))}>
-            <div className="header">
-              <h2 className="typewriter">GROWTH TALENT SOLUTIONS</h2>
-
-              <svg
-                version="1.1"
-                x="0px"
-                y="0px"
-                width="30vw"
-                height="20vw"
-                id="rhizome"
-                viewBox="0 0 300 400"
-                pointerEvents="none"
-              >
-                <defs>
-                  // <path id="circlePath" d=" M 400, 400 m -60, 0 a 60,60 0 0,1 120,0 a 60,60 0 0,1 -120,0 " />
-                  //{" "}
-                </defs>
-                <path
-                  d="M165.79,42.99c-7.87,7.57-13.57,17.01-16.25,27.92c-2.13,8.67-2.54,17.74-4.48,26.47c-1.39,6.25-3.64,12.4-6.22,18.27
+          <svg
+            version="1.1"
+            x="0px"
+            y="0px"
+            width="30vw"
+            height="20vw"
+            id="rhizome"
+            viewBox="0 0 300 400"
+            pointerEvents="none"
+          >
+            <defs>
+              // <path id="circlePath" d=" M 400, 400 m -60, 0 a 60,60 0 0,1 120,0 a 60,60 0 0,1 -120,0 " />
+              //{" "}
+            </defs>
+            <path
+              d="M165.79,42.99c-7.87,7.57-13.57,17.01-16.25,27.92c-2.13,8.67-2.54,17.74-4.48,26.47c-1.39,6.25-3.64,12.4-6.22,18.27
 	c-3.13,7.12-5.47,13.96-0.74,21.23c0.16,0.24,0.13,0.66,0.06,0.97c-0.07,0.29-0.32,0.53-0.5,0.79c-5.31-4.04-7.12-11.49-4.36-19.74
 	c2.15-6.4,4.76-12.65,7.5-19.83c-4.69,3-8.27,5.62-12.14,7.68c-7.05,3.77-11.06,9.6-13.48,17.07c-1.88,5.79-4.37,11.41-7,16.9
 	c-0.89,1.86-3.04,3.12-5.51,5.52c0-2.09-0.26-2.91,0.04-3.24c5.13-5.76,7.78-12.68,9.46-20.06c2.2-9.64,7.42-16.73,16.57-21.13
@@ -88,24 +73,16 @@ function App() {
 	c-1.68,6.77-6.12,10.68-13.27,11.41c0.07-0.47-0.01-1.19,0.21-1.29c7.1-3.48,9.33-9.59,11.38-16.95
 	c3.08-11.11,8.25-21.63,12.49-32.42c1.88-4.78,3.88-9.54,5.4-14.44c2.09-6.74,2.41-13.36,0.48-20.52
 	C168.28,62.4,167.39,52.63,165.79,42.99z"
-                />
-              </svg>
-            </div>
-          </Animator>
-        </ScrollPage>
-
-        <ScrollPage>
-          <Animator animation={(Fade(), MoveOut(0, -700))}>
-            <Descriptions></Descriptions>
-          </Animator>
-        </ScrollPage>
-
-        <ScrollPage>
-          <Animator animation={Fade()}>
-            <EmailForm></EmailForm>
-          </Animator>
-        </ScrollPage>
-      </ScrollContainer>
+            />
+          </svg>
+        </div>
+      </ScrollAnimation>
+      <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
+        <Descriptions></Descriptions>
+      </ScrollAnimation>
+      <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
+        <EmailForm></EmailForm>
+      </ScrollAnimation>
     </>
   );
 }
