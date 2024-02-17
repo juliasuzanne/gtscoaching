@@ -10,6 +10,12 @@
 
 }
 
+@media only screen and (max-width: 700px) {
+  body .cursor {
+      display: 'none'
+  }
+}
+
 @font-face {
   font-family: "ForesterRegular";   /*Can be any text*/
   src: local("ForesterRegular-gxra4"),
