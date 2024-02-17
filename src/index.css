@@ -27,7 +27,7 @@ body {
 a {
   font-family: "Maison";
   font-style:normal;
-  font-size: 1.5em;
+  font-size: clamp(30px, 4.5vw, 400px);
   display: block;
   float: center;
   text-transform: uppercase;
