@@ -2,23 +2,34 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  color: rgba(255, 255, 255, 0.87);
+  color:rgb(41, 46, 53);
   background-color: #242424;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+body {
+  background: green;
+  transition: background  1.5s;
+}
 
-/* h2 {
-  font-family: "Times Sans Serif";
-  font-size: 3em;
+.descriptiontext {
+  font-family: "Maison";
+  font-size: 2.5em;
+  margin-top: 20vh;
   color:rgb(41, 53, 44);
-} */
+  height: fit-content;
+} 
+
+
 
 a {
-  font-family: "Times Sans Serif";
+  font-family: "Maison";
   font-style:normal;
+  font-size: 1.5em;
+  display: block;
+  float: center;
   text-transform: uppercase;
   color:rgb(41, 46, 53);
 }
@@ -27,9 +38,9 @@ a {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   overflow-wrap: break-word;
 
-  font-family: "Times Sans Serif";
+  font-family: "Maison";
   font-size: 5vw;
-  color:rgb(41, 53, 44);
+  color:rgb(102, 103, 127);
   border-right: .15em solid orange; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
@@ -40,17 +51,13 @@ a {
 }
 
 .header{
-  padding-top: 20vh;
-  padding-bottom: 10vh;
+  padding-top: 40vh;
+  background-color:rgb(2, 3, 26);
+  height: 90vh;
+  transition: opacity 0.1s;
+
 }
 
-.description{
-  align-content: center;
-  margin-left: 5%;
-  top: 0px;
-  /* background-color:rgba(214, 219, 248, 0.242); */
-  
-}
 
 /* The typing effect */
 @keyframes typing {
@@ -64,32 +71,94 @@ a {
   50% { border-color: rgba(255, 255, 255, 0.519); }
 }
 
+#contactform{
+  width: 60vw;
+  height: 100vh;
+  margin: auto;
+  padding-top: 30vh;
+  text-align: left;
+  color:rgba(70, 73, 43, 0.828);
+}
+
+.contactwrapper{
+  background-color:rgb(179, 210, 244);
+}
+
+.submitbutton{
+  background: transparent;
+  border-width: 0px;
+  float: right;
+  font-size:25px;
+  margin-top: -3.5vh;
+  font-family: "ForesterRegular";
+  transform-origin: 0 0;
+  transform: rotate(-10deg);
+
+}
+
+.submitbutton:hover{
+  color:rgba(70, 73, 43, 0.828);
+  transform: rotate(-15deg);
+
+}
+
+input:focus {
+  outline:none;
+}
+
+
+.contactheader{
+
+  font-size: clamp(16px, 2.5vw, 30px);  text-transform: uppercase;
+  font-family: "Maison";
+  padding-bottom: 3vh;
+
+}
+
+
+.form-control{
+  float: right;
+  margin-bottom: 30px;
+  border: none;
+  background: transparent;
+  width: 100%;
+  border-bottom: 1px solid rgb(59, 31, 9);
+}
 
 li{
   list-style-type: none;
 }
 
-a:hover{
-  color:rgba(70, 73, 43, 0.828);
-  /* font-family: "Times Sans Serif"; */
-  font-style: oblique;
+h4{
 
+  font-family: 'Motterdam-K74zp';
+  color: rgba(70, 73, 43, 0.828);
+}
+
+
+a:hover{
+/* text-decoration: line-through;
+text-decoration-color: rgba(0, 128, 255, 0.125);
+text-decoration-thickness: 40px; */
+
+color:rgba(70, 73, 43, 0.828);
+  /* font-family: "Maison"; */
 }
 
 p {
-  text-align: center;
-  line-height: 2.5;
-  padding-left: 12%;
-  padding-right: 12%;
-  color:rgba(70, 73, 43, 0.828);
-  font-family: " Sans Serif";
-  font-style: oblique;
-  font-size: clamp(16px, 2.5vw, 30px);  text-transform: uppercase;
-
+  text-align: left;
+  line-height: 1.5;
+  margin: auto;
+  margin-top: 2vh;
+  width: 60%;
+  color:rgba(41, 46, 53, 0.792);
+  font-family: Geneva, Tahoma, sans-serif;
+  font-size: clamp(12px, 1.75vw, 30px);  
+  margin-bottom: 5vh;
 }
 
 #rhizome {
-  fill: rgba(86, 63, 39, 0.315);
+  fill: rgba(193, 158, 122, 0.315);
   align-content: center;
 
 
@@ -99,6 +168,6 @@ p {
 body {
   margin-top: 0;
   min-width: 320px;
-  min-height: 100vh;
-  background-color:rgb(211, 189, 161);
+  min-height: 150vh;
+  background-color:rgb(232, 247, 251);
 }

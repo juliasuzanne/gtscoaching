@@ -5,22 +5,22 @@
 
 @font-face {
   font-family: "Maison";   /*Can be any text*/
-  src: local("Maison"),
-    url("/src/assets/Maison.ttf") format("truetype"),
+  src: local("Louis"),
+    url("/src/assets/Louis.ttf") format("truetype"),
 
 }
 
 @font-face {
-  font-family: "MaisonN";   /*Can be any text*/
-  src: local("MaisonN"),
-    url("/src/assets/MaisonNeue.ttf") format("truetype"),
+  font-family: "ForesterRegular";   /*Can be any text*/
+  src: local("ForesterRegular-gxra4"),
+    url("/src/assets/ForesterRegular-gxra4.ttf") format("truetype"),
 
 }
 
 @font-face {
-  font-family: "prag";   /*Can be any text*/
-  src: local("prag"),
-    url("/src/assets/prag.ttf") format("truetype"),
+  font-family: "Motterdam-K74zp";   /*Can be any text*/
+  src: local("Motterdam-K74zp"),
+    url("/src/assets/Motterdam-K74zp.ttf") format("truetype"),
 
 }
 
