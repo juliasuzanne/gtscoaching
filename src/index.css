@@ -172,6 +172,11 @@ p {
 
 }
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 #scroll{
   color: rgba(173, 232, 249, 0.375);
   font-size: clamp(15px, 3.5vw, 400px);
