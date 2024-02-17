@@ -6,7 +6,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import { EmailForm } from "./EmailForm";
 import { Descriptions } from "./Descriptions";
-import { Fade } from "react-awesome-reveal";
+import { Fade, Reveal } from "react-awesome-reveal";
 
 function App() {
   const [count, setCount] = useState(0);
