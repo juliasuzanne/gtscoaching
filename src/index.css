@@ -19,7 +19,6 @@ body {
   margin-top: 40vh;
   color:rgb(41, 53, 44);
   height: clamp(150vh, max-content);
-  width: 100vw;
   margin-bottom: 40vh;
 } 
 
@@ -174,6 +173,7 @@ p {
 
 html, body {
   max-width: 100%;
+  min-width: 100%;
   overflow-x: hidden;
 }
 
