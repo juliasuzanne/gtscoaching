@@ -74,7 +74,7 @@ a {
 
 #contactform{
   width: 60vw;
-  height: 100vh;
+  height: 70vh;
   margin: auto;
   padding-top: 30vh;
   text-align: left;
@@ -98,7 +98,7 @@ a {
 }
 
 .submitbutton:hover{
-  color:rgba(70, 73, 43, 0.828);
+  color:rgba(19, 108, 45, 0.828);
   transform: rotate(-15deg);
 
 }
@@ -143,7 +143,7 @@ a:hover{
 text-decoration-color: rgba(0, 128, 255, 0.125);
 text-decoration-thickness: 40px; */
 
-color:rgba(70, 73, 43, 0.828);
+color:rgba(19, 108, 45, 0.828);
  font-size: clamp(35px, 4.8vw, 400px);
 
   /* font-family: "Maison"; */
@@ -165,6 +165,16 @@ p {
   fill: rgba(32, 183, 52, 0.315);
   align-content: center;
 
+
+}
+
+#scroll{
+  color: rgba(173, 232, 249, 0.375);
+  font-size: clamp(15px, 3.5vw, 400px);
+  text-align: center;
+  padding-left: 3vw;
+  font-family: "Motterdam-K74zp";
+  line-height: 0;
 
 }
 

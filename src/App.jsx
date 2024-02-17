@@ -18,7 +18,6 @@ function App() {
       <ScrollAnimation initiallyVisible="true" animateOut="fadeOut" animateIn="fadeIn">
         <div className="header">
           <h2 className="typewriter">GROWTH TALENT SOLUTIONS</h2>
-
           <svg
             version="1.1"
             x="0px"
@@ -75,6 +74,12 @@ function App() {
 	C168.28,62.4,167.39,52.63,165.79,42.99z"
             />
           </svg>
+          <br></br>
+          <br></br>
+          <br></br>
+
+          <p id="scroll">scroll</p>
+          <p id="scroll">&#8595;</p>
         </div>
       </ScrollAnimation>
       <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
