@@ -1,0 +1,107 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* h2 {
+  font-family: "Times Sans Serif";
+  font-size: 3em;
+  color:rgb(41, 53, 44);
+} */
+
+a {
+  font-family: "MaisonN";
+  font-style:normal;
+  text-transform: lowercase;
+  color:rgb(41, 46, 53);
+}
+
+.typewriter {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  font-family: "Times Sans Serif";
+  font-size: 5vw;
+  color:rgb(41, 53, 44);
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .5s step-end infinite;
+}
+
+.header{
+  padding-top: 20vh;
+  padding-bottom: 10vh;
+}
+
+.description{
+  align-content: center;
+  margin-left: 5%;
+  /* background-color:rgba(214, 219, 248, 0.242); */
+  
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgba(255, 255, 255, 0.519); }
+}
+
+
+li{
+  list-style-type: none;
+}
+
+a:hover{
+  color:rgb(109, 120, 102);
+  /* font-family: "Times Sans Serif"; */
+  font-style: oblique;
+
+}
+
+p {
+  text-align: center;
+  line-height: 2.5;
+  padding-left: 12%;
+  padding-right: 12%;
+  color:rgba(86, 63, 39, 0.643);
+  font-family: "MaisonN";
+  font-style: oblique;
+  font-size: 2.5vw;
+
+}
+
+#rhizome {
+  fill: rgba(86, 63, 39, 0.315);
+  align-content: center;
+
+
+}
+
+
+body {
+ 
+  margin-top: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color:rgb(211, 189, 161);
+}

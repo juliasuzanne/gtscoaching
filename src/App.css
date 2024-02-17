@@ -1,0 +1,56 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@font-face {
+  font-family: "Maison";   /*Can be any text*/
+  src: local("Maison"),
+    url("/src/assets/Maison.ttf") format("truetype"),
+
+}
+
+@font-face {
+  font-family: "MaisonN";   /*Can be any text*/
+  src: local("MaisonN"),
+    url("/src/assets/MaisonNeue.ttf") format("truetype"),
+
+}
+
+@font-face {
+  font-family: "prag";   /*Can be any text*/
+  src: local("prag"),
+    url("/src/assets/prag.ttf") format("truetype"),
+
+}
+
+@font-face {
+  font-family: "Glorien Sans Serif";
+  src: url("https://db.onlinewebfonts.com/t/c9428320be906c651a5a5bf86771c3aa.eot");
+  src: url("https://db.onlinewebfonts.com/t/c9428320be906c651a5a5bf86771c3aa.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/c9428320be906c651a5a5bf86771c3aa.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/c9428320be906c651a5a5bf86771c3aa.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/c9428320be906c651a5a5bf86771c3aa.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/c9428320be906c651a5a5bf86771c3aa.svg#Glorien Sans Serif")format("svg");
+}
+
+@font-face {
+  font-family: "Times Sans Serif";
+  src: url("https://db.onlinewebfonts.com/t/f5511239c72c70ba62b013979a9259c2.eot");
+  src: url("https://db.onlinewebfonts.com/t/f5511239c72c70ba62b013979a9259c2.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/f5511239c72c70ba62b013979a9259c2.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/f5511239c72c70ba62b013979a9259c2.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/f5511239c72c70ba62b013979a9259c2.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/f5511239c72c70ba62b013979a9259c2.svg#Times Sans Serif")format("svg");
+}
+
+@font-face {
+  font-family: "Rotis Sans Serif 55";
+  src: url("https://db.onlinewebfonts.com/t/d979624d1cb77d6523f9b3adc2bcef31.eot");
+  src: url("https://db.onlinewebfonts.com/t/d979624d1cb77d6523f9b3adc2bcef31.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/d979624d1cb77d6523f9b3adc2bcef31.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/d979624d1cb77d6523f9b3adc2bcef31.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/d979624d1cb77d6523f9b3adc2bcef31.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/d979624d1cb77d6523f9b3adc2bcef31.svg#Rotis Sans Serif 55")format("svg");
+}
