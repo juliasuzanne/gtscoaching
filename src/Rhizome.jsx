@@ -7,7 +7,7 @@ export function Rhizome() {
       width="300px"
       height="150px"
       id="rhizome"
-      viewBox="0 0 200 400"
+      viewBox="0 0 300 400"
       pointerEvents="none"
     >
       <defs>

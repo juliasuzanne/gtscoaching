@@ -39,11 +39,10 @@ a {
 .typewriter {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   overflow-wrap: break-word;
-
   font-family: "Maison";
-  font-size: 2vw;
-  color:rgb(109, 125, 151);
-  border-right: .15em solid orange; /* The typwriter cursor */
+  font-size: 1.5em;
+  color:rgb(14, 6, 35);
+  /* border-right: .15em solid orange; The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
@@ -52,15 +51,30 @@ a {
     blink-caret .5s step-end infinite; */
 }
 
+.test {
+  background-color: purple;
+}
+
+.headercontents{
+  height: 400px;
+}
+
 .header{
-  padding-top: 40vh;
-  background-color:rgb(2, 3, 26);
-  width: 100vw;
-  height: 100vh;
-  transition: opacity 0.1s;
+  padding-top: 150px; 
+  background-color:rgb(237, 235, 213);
+  padding-bottom: 100px;
 
 }
 
+
+
+.monstera {
+  background-image: url("https://www.bhg.com/thmb/rmbt3C6nknS2eg31JcaLXu5jacw=/1500x0/filters:no_upscale():strip_icc()/bhg-monstera-GettyImages-1202757463-422671962c5540fb8d7e03a56d813c86.jpg");
+  background-size: fill;
+  background-position-x:1120px;
+  height: 900px;
+  
+}
 
 /* The typing effect */
 @keyframes typing {
@@ -84,7 +98,6 @@ a {
 }
 
 .contactwrapper{
-  width: 100vw;
   background-color:rgb(188, 182, 160);
 }
 
@@ -125,7 +138,6 @@ input:focus {
   margin-bottom: 30px;
   border: none;
   background: transparent;
-  width: 100%;
   border-bottom: 1px solid rgb(59, 31, 9);
 }
 
@@ -152,12 +164,15 @@ color:rgba(20, 68, 34, 0.828);
   /* font-family: "Maison"; */
 }
 
+#root{
+
+}
+
 p {
   text-align: left;
   line-height: 1.5;
   margin: auto;
   margin-top: 2vh;
-  width: 60%;
   color:rgba(41, 46, 53, 0.792);
   font-family: Geneva, Tahoma, sans-serif;
   font-size: clamp(12px, 1.75vw, 30px);  
@@ -165,29 +180,22 @@ p {
 }
 
 #rhizome {
-  fill: rgba(76, 53, 25, 0.795);
+  fill: rgba(217, 172, 117, 0.795);
   align-content: center;
 
 
 }
 
 html, body {
-  max-width: 100%;
-  min-width: 100%;
   overflow-x: hidden;
 }
 
 #scroll{
-  color: rgba(173, 232, 249, 0.375);
+  color: rgb(73, 84, 11);
   font-size: clamp(15px, 3.5vw, 400px);
   text-align: center;
   padding-left: 3vw;
   font-family: "Motterdam-K74zp";
   line-height: 0;
 
-}
-
-
-body {
-  margin-top: 0;
 }
