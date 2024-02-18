@@ -3,7 +3,7 @@ import { TypeAnimation } from "react-type-animation";
 export function TypingDefinitions() {
   return (
     <div>
-      <h2>GTS is a</h2>
+      <h2>GTS is a...</h2>
 
       <TypeAnimation
         sequence={[
