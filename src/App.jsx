@@ -1,6 +1,7 @@
 import { useState, useRef } from "react";
 import reactLogo from "./assets/react.svg";
 import AnimatedCursor from "react-animated-cursor";
+import { TypingDefinitions } from "./TypingDefinitions";
 import { motion, useScroll } from "framer-motion";
 import viteLogo from "/vite.svg";
 import "./App.css";
@@ -16,7 +17,10 @@ function App() {
       <AnimatedCursor innerSize={8} outerSize={8} color="61,51,57" outerAlpha={0} innerScale={0.7} outerScale={0.6} />
       <Fade>
         <div className="header">
-          <h2 className="typewriter">GROWTH TALENT SOLUTIONS</h2>
+          <h2 className="typewriter">
+            <TypingDefinitions />{" "}
+          </h2>
+
           <svg
             version="1.1"
             x="0px"
@@ -76,11 +80,11 @@ function App() {
           <br></br>
           <br></br>
           <br></br>
-
           <p id="scroll">scroll</p>
           <p id="scroll">&#8595;</p>
         </div>
       </Fade>
+
       <Fade>
         <Descriptions></Descriptions>
       </Fade>
