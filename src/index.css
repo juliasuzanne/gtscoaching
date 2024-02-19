@@ -48,7 +48,7 @@ a {
   overflow-wrap: break-word;
   font-family: "Maison";
   font-size: 100%;
-  color:rgb(147, 181, 231);
+  color:rgb(181, 148, 118);
   /* border-right: .15em solid orange; The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
@@ -69,7 +69,7 @@ a {
   background-position-x: 300px;
   background-color:rgb(28, 57, 11);
   padding-bottom: 100px;
-  border-right: rgb(238, 157, 111);
+  border-right: rgb(2, 50, 182);
   border-right-width: 10px;
   border-style: solid;
   border-top: none;
