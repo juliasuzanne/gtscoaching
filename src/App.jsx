@@ -16,7 +16,7 @@ function App() {
 
   return (
     <>
-      <AnimatedCursor innerSize={8} outerSize={8} color="61,51,57" outerAlpha={0} innerScale={0.7} outerScale={0.6} />
+      <AnimatedCursor innerSize={8} outerSize={8} color="51,251,157" outerAlpha={0} innerScale={0.7} outerScale={0.6} />
       <Navbar></Navbar>
       <Fade>
         <div className="header container-fluid m-0 p-0 ">
