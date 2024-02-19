@@ -6,7 +6,6 @@
   font-family: "Maison";   /*Can be any text*/
   src: local("Louis"),
     url("/src/assets/Louis.ttf") format("truetype"),
-
 }
 
 @media only screen and (max-width: 700px) {
