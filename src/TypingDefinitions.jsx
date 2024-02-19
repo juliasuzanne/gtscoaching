@@ -1,8 +1,9 @@
 import { TypeAnimation } from "react-type-animation";
+import { Rhizome } from "./Rhizome";
 
 export function TypingDefinitions() {
   return (
-    <div>
+    <div className="typingdefs">
       <h1 className="largetype">GTS is</h1>
 
       <TypeAnimation
@@ -22,6 +23,8 @@ export function TypingDefinitions() {
         style={{ fontSize: "2em", display: "inline-block" }}
         repeat={Infinity}
       />
+      <br></br>
+      <Rhizome></Rhizome>
     </div>
   );
 }

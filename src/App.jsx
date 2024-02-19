@@ -18,14 +18,13 @@ function App() {
     <>
       <AnimatedCursor innerSize={8} outerSize={8} color="61,51,57" outerAlpha={0} innerScale={0.7} outerScale={0.6} />
       <Fade>
-        <div className="headercontainer container-fluid m-0 p-0 ">
+        <div className="header container-fluid m-0 p-0 ">
           <div className="row">
             <div className="header d-sm-block col-sm-12  col-lg-6 col-xl-6 col-xxl-6">
               <h2 className="typewriter">
                 <TypingDefinitions />{" "}
               </h2>
 
-              <Rhizome></Rhizome>
               <br></br>
               <br></br>
               <br></br>
