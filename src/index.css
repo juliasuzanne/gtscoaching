@@ -166,6 +166,14 @@ li{
   list-style-type: none;
 }
 
+.headertext{
+  font-size: 1em;
+  color: rgb(184, 205, 172);
+  overflow-wrap: break-word;
+  text-align: center;
+
+
+}
 h4{
   font-size: clamp(25px, 4vw, 400px);
 

@@ -25,10 +25,14 @@ function App() {
               <h2 className="typewriter">
                 <TypingDefinitions />{" "}
               </h2>
+              <br></br>
+              <p className="headertext">
+                like a river seeking low ground, GTS' unique approach will guide your business to grow seamlessly
+                towards your goals
+              </p>
+              <br></br>
+              <br></br>
 
-              <br></br>
-              <br></br>
-              <br></br>
               {/* <p id="scroll">scroll</p>
               <p id="scroll">&#8595;</p> */}
             </div>

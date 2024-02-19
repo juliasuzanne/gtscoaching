@@ -5,17 +5,16 @@ export function TypingDefinitions() {
   return (
     <div className="typingdefs">
       <h1 className="largetype">GTS is</h1>
-      <div className="circle"></div>
       <TypeAnimation
         sequence={[
           // Same substring at the start will only be typed out once, initially
-          "a recruitment service",
+          "  a recruitment service  ",
           3000, // wait 1s before replacing "Mice" with "Hamsters"
-          "a consulting firm",
+          "  a consulting firm  ",
           3000,
-          "a holistic mindset",
+          "  a holistic mindset  ",
           3000,
-          "a turnkey solution",
+          "  a turnkey solution  ",
           5000,
         ]}
         wrapper="span"
@@ -24,6 +23,7 @@ export function TypingDefinitions() {
         repeat={Infinity}
       />
       <br></br>
+
       {/* <Rhizome></Rhizome> */}
     </div>
   );
