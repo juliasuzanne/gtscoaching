@@ -36,14 +36,11 @@ a {
 
 }
 
-.navbar{
-  width: 100vw;
-  background-color: rgb(69, 153, 94);
-  height: 10px;
-}
+
 
 .typewriter {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
+  
   line-height: 3;
   overflow-wrap: break-word;
   font-family: "Maison";
@@ -123,6 +120,7 @@ a {
 
 .contactwrapper{
   background-color:rgb(232, 224, 197);
+  height: 100vh;
 }
 
 .submitbutton{

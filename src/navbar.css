@@ -1,0 +1,28 @@
+#navabar {
+  z-index: 220;
+  color: rgb(54, 54, 54);
+
+}
+
+.navbar {
+}
+
+.navbar-custom {
+  background-color: transparent;
+}
+
+
+
+#offcanvasNavbar {
+  background-color: rgb(129, 129, 129);
+  text-align:top;
+  color: rgb(255, 255, 255);
+}
+
+.navbutton_description {
+  display: inline-block;
+  position: absolute;
+}
+
+.navbutton_description:hover {
+}

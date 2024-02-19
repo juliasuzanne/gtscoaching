@@ -5,7 +5,7 @@ export function TypingDefinitions() {
   return (
     <div className="typingdefs">
       <h1 className="largetype">GTS is</h1>
-
+      <div className="circle"></div>
       <TypeAnimation
         sequence={[
           // Same substring at the start will only be typed out once, initially
@@ -24,7 +24,7 @@ export function TypingDefinitions() {
         repeat={Infinity}
       />
       <br></br>
-      <Rhizome></Rhizome>
+      {/* <Rhizome></Rhizome> */}
     </div>
   );
 }
