@@ -1,3 +1,3 @@
 export function Navbar() {
-  return <div className="navbar"></div>;
+  return <nav className="navbar-custom navbar-expand-lg navbar-light fixed-top"></nav>;
 }

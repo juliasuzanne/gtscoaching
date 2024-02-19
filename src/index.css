@@ -64,6 +64,7 @@ a {
 
 .typingdefs {
   width: 100%;
+  color: green;
 
 }
 
@@ -82,7 +83,9 @@ a {
 }
 
 .largetype {
-  font-size: 4em;
+  color: rgb(115, 218, 67);
+  font-size: 1.5em;
+  font-family: "Times Sans Serif";
 }
 
 
