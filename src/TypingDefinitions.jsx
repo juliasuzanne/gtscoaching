@@ -12,7 +12,7 @@ export function TypingDefinitions() {
           3000, // wait 1s before replacing "Mice" with "Hamsters"
           "consulting firm",
           3000,
-          "holistic growth strategy",
+          "holistic mindset",
           3000,
           "turnkey solution",
           5000,
