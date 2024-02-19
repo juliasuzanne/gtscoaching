@@ -19,7 +19,7 @@ export function TypingDefinitions() {
         ]}
         wrapper="span"
         speed={70}
-        style={{ fontSize: "3em", display: "inline-block" }}
+        style={{ fontSize: "2em", display: "inline-block" }}
         repeat={Infinity}
       />
     </div>
