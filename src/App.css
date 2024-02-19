@@ -21,6 +21,50 @@
 
 }
 
+
+@font-face {
+  font-family: "Montserrat-Bold";   /*Can be any text*/
+  src: local("Montserrat-Bold"),
+    url("/src/assets/Montserrat-Bold.otf") format("truetype"),
+
+}
+
+@font-face {
+  font-family: "Questrial-Regular";   /*Can be any text*/
+  src: local("Questrial-Regular"),
+    url("/src/assets/Questrial-Regular.ttf") format("truetype"),
+
+}
+
+
+@font-face {
+  font-family: "Vonique";   /*Can be any text*/
+  src: local("Vonique64"),
+    url("/src/assets/Vonique64.ttf") format("truetype"),
+
+}
+
+@font-face {
+  font-family: "Cocogoose";   /*Can be any text*/
+  src: local("Cocogoose"),
+    url("/src/assets/Cocogoose.ttf") format("truetype"),
+
+}
+
+@font-face {
+  font-family: "Cabin-Regular-TTF";   /*Can be any text*/
+  src: local("Cabin-Regular-TTF"),
+    url("/src/assets/Cabin-Regular-TTF.ttf") format("truetype"),
+
+}
+
+@font-face {
+  font-family: "Libel";   /*Can be any text*/
+  src: local("libel-suit-rg"),
+    url("/src/assets/libel-suit-rg.otf") format("truetype"),
+
+}
+
 @font-face {
   font-family: "Motterdam-K74zp";   /*Can be any text*/
   src: local("Motterdam-K74zp"),

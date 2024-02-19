@@ -10,7 +10,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 body {
-  background: rgb(68, 124, 68);
+  background: rgb(111, 202, 111);
 }
 
 .descriptiontext {
@@ -36,12 +36,19 @@ a {
 
 }
 
+.navbar{
+  width: 100vw;
+  background-color: rgb(69, 153, 94);
+  height: 10px;
+}
+
 .typewriter {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
+  line-height: 3;
   overflow-wrap: break-word;
   font-family: "Maison";
   font-size: 100%;
-  color:rgb(14, 6, 35);
+  color:rgb(147, 181, 231);
   /* border-right: .15em solid orange; The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
@@ -57,10 +64,12 @@ a {
 
 
 .header{
-  padding-top: 150px; 
-  background-color:rgb(237, 235, 213);
+  padding-top: 300px; 
+  background-size: cover;
+  background-position-x: 300px;
+  background-color:rgb(28, 57, 11);
   padding-bottom: 100px;
-  border-right: rgb(181, 227, 17);
+  border-right: rgb(238, 157, 111);
   border-right-width: 10px;
   border-style: solid;
   border-top: none;
@@ -68,13 +77,19 @@ a {
 
 }
 
+.largetype {
+  font-size: 4em;
+}
 
 
 .monstera {
-  background-image: url("https://www.bhg.com/thmb/rmbt3C6nknS2eg31JcaLXu5jacw=/1500x0/filters:no_upscale():strip_icc()/bhg-monstera-GettyImages-1202757463-422671962c5540fb8d7e03a56d813c86.jpg");
-  background-size: fill;
-  background-position-x:1120px;
-  height: 900px;
+  background-image: url("https://media.licdn.com/dms/image/C5622AQGuDe4N34sf1g/feedshare-shrink_2048_1536/0/1637158122570?e=2147483647&v=beta&t=E5kc2Y3lAknISny2_39z4NAENloCS8vR3LW9aXSmy74");
+  /* background-image: url("https://huntimages.s3.us-west-2.amazonaws.com/production/steemhunt/2018-08-31/bf16f593-QbiToy_Blocks.gif"); */
+  /* background-image: url("https://cdn.dribbble.com/users/433929/screenshots/3673237/media/5a85c7995ce4be5598765675c2d0a5a3.gif"); */
+  background-size: cover;
+  background-position-x: -10px;
+  box-shadow: inset 0 0 0 1000px rgba(56, 105, 61, 0.4);
+  height: 100vh;
   
 }
 
@@ -194,9 +209,8 @@ html, body {
 
 #scroll{
   color: rgb(73, 84, 11);
-  font-size: clamp(15px, 3.5vw, 400px);
+  font-size: clamp(30px, 3.5vw, 400px);
   text-align: center;
-  padding-left: 3vw;
   font-family: "Motterdam-K74zp";
   line-height: 0;
 

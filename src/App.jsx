@@ -9,6 +9,7 @@ import { EmailForm } from "./EmailForm";
 import { Descriptions } from "./Descriptions";
 import { Fade, Reveal } from "react-awesome-reveal";
 import { Rhizome } from "./Rhizome";
+import { Navbar } from "./Navbar";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -28,14 +29,13 @@ function App() {
               <br></br>
               <br></br>
               <br></br>
-              <p id="scroll">scroll</p>
-              <p id="scroll">&#8595;</p>
+              {/* <p id="scroll">scroll</p>
+              <p id="scroll">&#8595;</p> */}
             </div>
             <div className="monstera col-sm-12 col-lg-6 col-xxl-6 col-xl-6"></div>
           </div>
         </div>
       </Fade>
-
       <Fade>
         <Descriptions></Descriptions>
       </Fade>
