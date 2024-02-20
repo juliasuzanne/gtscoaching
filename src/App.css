@@ -74,12 +74,7 @@
 
 @font-face {
   font-family: "Glorien Sans Serif";
-  src: url("https://db.onlinewebfonts.com/t/c9428320be906c651a5a5bf86771c3aa.eot");
-  src: url("https://db.onlinewebfonts.com/t/c9428320be906c651a5a5bf86771c3aa.eot?#iefix")format("embedded-opentype"),
-  url("https://db.onlinewebfonts.com/t/c9428320be906c651a5a5bf86771c3aa.woff2")format("woff2"),
-  url("https://db.onlinewebfonts.com/t/c9428320be906c651a5a5bf86771c3aa.woff")format("woff"),
-  url("https://db.onlinewebfonts.com/t/c9428320be906c651a5a5bf86771c3aa.ttf")format("truetype"),
-  url("https://db.onlinewebfonts.com/t/c9428320be906c651a5a5bf86771c3aa.svg#Glorien Sans Serif")format("svg");
+  src: url("GlorienSansSerif-FREE.otf") format("truetype"),
 }
 
 @font-face {
