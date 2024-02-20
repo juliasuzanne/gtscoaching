@@ -74,7 +74,7 @@
 
 @font-face {
   font-family: "Glorien Sans Serif";
-  src: url("GlorienSansSerif-FREE.otf") format("truetype"),
+  src: url("/src/assets/GlorienSansSerif-FREE.otf") format("truetype"),
 }
 
 @font-face {
