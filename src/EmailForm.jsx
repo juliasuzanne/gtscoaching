@@ -1,50 +1,87 @@
 import axios from "axios";
 import { useState } from "react";
+import "./CSS/emailform.css";
 
 export function EmailForm() {
   const [errors, setErrors] = useState([]);
+  const [errorShow, setErrorShow] = useState(true);
+  const [successMessageShow, setSuccessMessageShow] = useState(true);
+  const [successMessage, setSuccessMessage] = useState([]);
 
   const handleSubmit = (event) => {
     event.preventDefault();
     const params = new FormData(event.target);
     setErrors([]);
     axios
-      .post("https://ecrebocpremail.fly.dev/contact_form", params)
+      .post("https://gtsemailbackend.fly.dev/contact_form", params)
       .then((response) => {
         console.log(response.data);
         event.target.reset();
-        window.location.href = "/";
+        setSuccessMessage(["E-mail sent successfully!"]);
+        setSuccessMessageShow(false);
+        setErrorShow(true);
+        setErrors([]);
       })
       .catch((errors) => {
         console.log(errors.response);
-        setErrors(["Invalid email or password"]);
+        setSuccessMessage([]);
+        setErrorShow(false);
+        setSuccessMessageShow(true);
+        setErrors(["Please fill out all fields"]);
       });
   };
 
   return (
-    <div className="contactwrapper">
-      <div id="contactform">
-        <h1 className="contactheader">Contact Us</h1>
-        <ul>
-          {errors.map((error) => (
-            <li key={error}>{error}</li>
-          ))}
-        </ul>
-        <form onSubmit={handleSubmit}>
-          <div>
-            <input name="email" className="form-control" type="email" defaultValue="e-mail" />
+    <div id="login">
+      <form onSubmit={handleSubmit}>
+        <div className="container">
+          <div className="row">
+            <div className="email-outsides">
+              <h2 className="headertitle">
+                Are You Ready To Grow Your Business? <span className="connector">Let's Connect!</span>
+              </h2>
+            </div>
           </div>
-          <div>
-            <input name="name" className="form-control" type="string" defaultValue="your name" />
+          <div className="row">
+            <div>
+              <input name="email" className="form-control" type="email" placeholder="E-mail" />
+            </div>
           </div>
+          <div className="row">
+            <div className="col-sm-6">
+              <input name="name" className="form-control" type="string" placeholder="First Name" />
+            </div>
+            <div className="col-sm-6">
+              <input name="last_name" className="form-control" type="string" placeholder="Last Name" />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-sm-12 messagewidth">
+              <p>
+                <textarea name="message" type="text" className="textarea" placeholder="Message"></textarea>
+              </p>
+              {/* <input name="message" className="textarea form-control" type="text" /> */}
+            </div>
+          </div>
+          <ul hidden={successMessageShow} className="success">
+            {successMessage.map((successMessage) => (
+              <li key={successMessage}>{successMessage}</li>
+            ))}
+          </ul>
+          <ul hidden={errorShow} className="errors">
+            {errors.map((error) => (
+              <li key={error}>{error}</li>
+            ))}
+          </ul>
+          <div className="row">
+            <button className="submitbutton btn btn-secondary mt-3 submit ">Submit</button>
+          </div>
+        </div>
+      </form>
+      <br></br>
+      <br></br>
 
-          <div>
-            <input name="message" className="form-control" type="text" defaultValue="message" />
-          </div>
-
-          <button className="submitbutton">Submit</button>
-        </form>
-      </div>
+      <br></br>
     </div>
   );
 }

@@ -6,10 +6,10 @@ export function Vine() {
     src: "vinetest.riv",
     stateMachines: "ScrollingBehavior",
     autoplay: true,
-    layout: new RiveLayout({
-      fit: Fit.FitHeight,
-      alignment: Alignment.CenterRight,
-    }),
+    // layout: new RiveLayout({
+    //   fit: Fit.FitHeight,
+    //   alignment: Alignment.CenterRight,
+    // }),
   });
   const scrollPos = useStateMachineInput(rive, "ScrollingBehavior", "scrollPos", 0);
 

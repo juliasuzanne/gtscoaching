@@ -14,6 +14,8 @@ import { Rhizome } from "./Rhizome";
 import { Navbar } from "./Navbar";
 import { Vine } from "./Vine";
 import { Vine2 } from "./Vine2";
+import { About } from "./About";
+import { Approach } from "./Approach";
 
 export function Home() {
   const [count, setCount] = useState(0);
@@ -21,20 +23,44 @@ export function Home() {
   return (
     <>
       <div className="main">
+        {/* <div className="buttons"> */}
+        {/* <Button url="/leaf" label="about"></Button>
+        <Button url="/leaf" label="approach"></Button>
+        <Button url="/leaf" label="contact"></Button> */}
         <br></br>
         <br></br>
         {/* <div className="leafwatermark"></div> */}
         <p>Introducing an alternative to traditional recruiting:</p>
-        <h1> GROWTH TALENT SOLUTIONS </h1>
-        <div className="buttons">
-          <Button url="/leaf" label="about"></Button>
-          <Button url="/leaf" label="approach"></Button>
+        <div className="linel"></div>
+        <br></br>
+        <br></br>
 
-          <Button url="/leaf" label="contact"></Button>
-        </div>
+        <h1> GROWTH TALENT SOLUTIONS </h1>
       </div>
+
+      <img width="160px" src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1710822706/gtslogo_mkqhfs.png"></img>
+      <br></br>
+      <br></br>
+
+      <br></br>
+      <br></br>
+      <br></br>
+
+      <br></br>
+      <br></br>
+      <br></br>
+
+      <br></br>
+
+      <About></About>
+      <br></br>
+      <br></br>
+
+      <Approach></Approach>
       {/* <Vine></Vine> */}
       <Vine></Vine>
+      <br></br>
+      <br></br>
 
       <Fade>
         <EmailForm></EmailForm>

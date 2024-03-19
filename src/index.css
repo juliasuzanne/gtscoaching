@@ -13,8 +13,39 @@ body {
   background-color: #F2F0F0;
 }
 
+.optionscontainer{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.topparagraph{
+  background-color:white;
+  width: 40%;
+  padding: 5%;
+  min-height: 37vh;
+  margin:auto;
+  border-radius: 20px;
+
+}
+#login{
+  width: 75%;
+  margin: auto;
+}
+
+#subtitle{
+  font-family: "NibPro-BoldItalic";
+  font-size: 1.2vw;
+  margin-left: 30%;
+  width: 70%;
+}
+
+
 .main{
   color: #34384C;
+  padding-bottom: 10%;
+  padding-top: 10%;
+  min-height: 50vh;
+
   /* background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1710823136/logoopacity_k92jfp.png");
   background-size: 50vh;
   background-repeat: no-repeat;
@@ -23,6 +54,13 @@ body {
 
   
 }
+
+#background-square{
+  padding: 5vh;
+
+}
+
+
 
 .leafbottomright{
   position:fixed;
@@ -45,8 +83,16 @@ body {
   font-size: 10vw;
   padding-left: 30px;
   padding-right: 30px;
-
-  font-family: "NibPro-Regular";
+  border-right-color:rgb(41, 46, 53);
+  border-right-width: .2vw;
+  border-right-style: solid;
+  border-bottom-color:rgb(41, 46, 53);
+  border-bottom-width: .2vw;
+  border-bottom-style: solid;
+  font-family: "NibPro-SemiBold";
+  width: 70%;
+  border-bottom-right-radius: 5px;
+  margin: auto;
 
 }
 
@@ -173,17 +219,97 @@ a {
   50% { border-color: rgba(255, 255, 255, 0.519); }
 }
 
+.headertitle{
+  font-family: "NibPro-Black";
+  font-size: 3vw;
+  
+}
+
+.bodycontainer{
+  width: 70%;
+  margin: auto;
+  padding: 5%;
+  background-color: white;
+  margin-bottom: 5%;
+  border-radius: 20px;
+  margin: auto;
+  
+
+}
+
+.linel{
+  background-color: rgb(84, 87, 93);
+  height: .3vh;
+  width: 65%;
+}
+
+.liner{
+  background-color: rgb(84, 87, 93);
+  height: .3vh;
+  width: 65%;
+  float: right;
+}
+
+.number{
+  font-family: "NibPro-Bold";
+  font-size: 2em;
+}
+
+.subtitle{
+  font-family: "NibPro-BoldItalic";
+}
+
+@media screen and (max-width: 768px){
+  .headertitle{
+    margin: 0;
+    font-size: 5vw;
+    margin-bottom: 30px;
+  }
+  .bodycontainer{
+    width: 75%;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 5%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+  }
+  .bodycontainer p{
+   margin-bottom: 0;
+  }
+
+  .riveBox{
+    padding-top: 30%;
+  }
+
+  .bodycontainer p {
+    font-size: 3vw;
+  }
+
+  textarea {
+    width: 100%;
+    font-family: "raleway";
+    font-size: 1.5em;
+  }
+
+}
+
+.bodycontainer p{
+}
+
+.connector{
+  font-family: "NibPro-BoldItalic";
+}
+
 #contactform{
-  width: 60vw;
   height: 70vh;
   margin: auto;
   padding-top: 30vh;
   text-align: left;
-  color:rgba(19, 108, 45, 0.828);
+  color:rgb(36, 25, 69);
 }
 
 .contactwrapper{
-  background-color:rgb(232, 224, 197);
+  background-color:#f2f0f0;
   height: 100vh;
 }
 
@@ -191,17 +317,24 @@ a {
   background: transparent;
   border-width: 0px;
   float: right;
-  font-size:25px;
-  margin-top: -3.5vh;
+  color: grey;
+  font-size: 25px;
   font-family: "ForesterRegular";
-  transform-origin: 0 0;
-  transform: rotate(-10deg);
 
 }
 
+.flowers{
+  height: 40vh;
+  position: absolute;
+  padding-bottom: 20px;
+  top: 60vh;
+  border-radius: 40px;
+}
+
 .submitbutton:hover{
-  color:rgba(19, 108, 45, 0.828);
-  transform: rotate(-15deg);
+  color:rgba(0, 0, 0, 0.828);
+  background: transparent;
+
 
 }
 
@@ -221,12 +354,16 @@ input:focus {
 .form-control{
   float: right;
   margin-bottom: 30px;
+  font-family: "raleway";
+  font-size: 1em;
   border: none;
-  background: transparent;
+  background: white;
   border-bottom: 1px solid rgb(59, 31, 9);
 }
 
-
+.email-outsides{
+  padding-top: 5vh;
+}
 
 li{
   list-style-type: none;
@@ -239,8 +376,8 @@ li{
   text-align: center;
   font-family: "Maison";
 
-
 }
+
 h4{
   font-size: clamp(25px, 4vw, 400px);
 
@@ -264,14 +401,20 @@ color:rgba(20, 68, 34, 0.828);
 
 }
 
+textarea {
+  width: 100%;
+  font-family: "raleway";
+  font-size: .6em;
+  color: grey;
+}
+
 p {
   text-align: left;
   line-height: 1.5;
   margin: auto;
-  width: 60%;
   margin-top: 2vh;
   color:rgba(41, 46, 53, 0.792);
-  font-family: Geneva, Tahoma, sans-serif;
+  font-family: "raleway";
   font-size: clamp(12px, 1.75vw, 30px);  
   margin-bottom: 5vh;
 }
@@ -311,6 +454,7 @@ html, body {
   width: 100%;
 }
 
+
 .second-section {
 
   height: 100vh;
@@ -329,15 +473,15 @@ font-family: 'Roboto Mono', monospace;
 }
 
 
-.riveContainer{
-  height: 0;
+.rivecontainer{
+  position: absolute;
 }
 .riveBox{
-  height: 100vh;
+  height: 50vh;
   z-index: 2;
-  padding-left: 50px;
-  padding-top: 50px;
   pointer-events: none;
+  padding-top: 0;
+  padding-left: 40%;
 }
 
 @tailwind base;

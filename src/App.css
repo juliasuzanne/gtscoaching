@@ -73,6 +73,27 @@
 
 }
 
+@font-face {
+  font-family: "NibPro-Black";   /*Can be any text*/
+  src: local("NibPro-Black"),
+    url("/src/assets/NibPro-Black.ttf") format("truetype"),
+
+}
+
+@font-face {
+  font-family: "NibPro-BoldItalic";   /*Can be any text*/
+  src: local("NibPro-BoldItalic"),
+    url("/src/assets/NibPro-BoldItalic.ttf") format("truetype"),
+
+}
+
+@font-face {
+  font-family: "NibPro-Bold";   /*Can be any text*/
+  src: local("NibPro-Bold"),
+    url("/src/assets/NibPro-Bold.ttf") format("truetype"),
+
+}
+
 
 @font-face {
   font-family: "Vonique";   /*Can be any text*/
