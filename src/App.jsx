@@ -9,43 +9,34 @@ import { EmailForm } from "./EmailForm";
 import { Descriptions } from "./Descriptions";
 import { Fade, Reveal } from "react-awesome-reveal";
 import { Rhizome } from "./Rhizome";
+import { Home } from "./Home";
+import { LeafAnimation2 } from "./LeafAnimation2";
+import { LeafTest } from "./LeafTest";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import { Navbar } from "./Navbar";
+import { LeafAnimation } from "./LeafAnimation";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <AnimatedCursor innerSize={8} outerSize={8} color="51,251,157" outerAlpha={0} innerScale={0.7} outerScale={0.6} />
-      <Navbar></Navbar>
-      <Fade>
-        <div className="header container-fluid m-0 p-0 ">
-          <div className="row">
-            <div className="header d-sm-block col-sm-12  col-lg-6 col-xl-6 col-xxl-6">
-              <h2 className="typewriter">
-                <TypingDefinitions />{" "}
-              </h2>
-              <br></br>
-              <p className="headertext">
-                like a river seeking low ground, GTS' unique approach will guide your business to grow seamlessly
-                towards your goals
-              </p>
-              <br></br>
-              <br></br>
+      <LeafAnimation2></LeafAnimation2>
 
-              {/* <p id="scroll">scroll</p>
-              <p id="scroll">&#8595;</p> */}
-            </div>
-            <div className="monstera col-sm-12 col-lg-6 col-xxl-6 col-xl-6"></div>
-          </div>
-        </div>
-      </Fade>
-      <Fade>
-        <Descriptions></Descriptions>
-      </Fade>
-      <Fade>
-        <EmailForm></EmailForm>
-      </Fade>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/leaf" element={<LeafAnimation />} />
+        </Routes>
+      </BrowserRouter>
+
+      <div className="leafbottomright"></div>
+
+      {/* <img
+        className="leafbottomright"
+        src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1710819299/leafgrowth_ewobxf.png"
+      ></img> */}
     </>
   );
 }

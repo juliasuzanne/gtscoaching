@@ -3,14 +3,39 @@
   line-height: 1.5;
   font-weight: 400;
   color:rgb(41, 46, 53);
-  background-color: #242424;
+  background-color: #F2F0F0;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 body {
-  background: rgb(111, 202, 111);
+  background-color: #F2F0F0;
+}
+
+.main{
+  height: 100vh;
+  color: #34384C;
+  background-color:#F2F0F0;
+}
+
+.leafbottomright{
+  position:fixed;
+  Right: -1%;
+  bottom: -9%;
+}
+
+.main p {
+  font-size: 2.5vw;
+  font-family: "NibPro-LightItalic";
+  text-align: center;
+}
+
+.main h1 {
+  font-size: 10vw;
+  padding: 30px;
+  font-family: "NibPro-Regular";
+
 }
 
 .descriptiontext {
@@ -56,7 +81,7 @@ a {
 }
 
 .test {
-  background-color: purple;
+  background-color: F2F0F0;
 }
 
 .typingdefs {
@@ -70,7 +95,7 @@ a {
   margin: auto;
   padding-top: 20vh;
   background-position-x: 300px;
-  background-color:rgb(28, 57, 11);
+  background-color:F2F0F0;
   border-right: rgb(2, 50, 182);
   border-right-width: 10px;
   border-style: solid;
@@ -96,6 +121,26 @@ a {
   height: 100vh;
   
 }
+
+.lottie {
+  position: fixed;
+  top:0;
+ }
+ 
+ .scrolling-this {
+ 
+    position:fixed;
+    width: 200px;
+    Right: -1%;
+    bottom: -9%;
+  
+ }
+ 
+ .before-scroll {
+   height: 100vh;
+   width: 100%;
+  background-color: white;  
+ }
 
 /* The typing effect */
 @keyframes typing {
@@ -228,4 +273,30 @@ html, body {
   font-family: "Motterdam-K74zp";
   line-height: 0;
 
+}
+
+/* sample lottie */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+.first-section {
+ background-color: white;
+  height: 100vh;
+  width: 100%;
+}
+
+.second-section {
+
+  height: 100vh;
+  width: 100%;
+ background-color: white; 
+}
+
+.third-section {
+  height: 100vh;
+  width: 100%;
+ background-color: white;  
+}
+
+h1 {
+font-family: 'Roboto Mono', monospace;
 }
