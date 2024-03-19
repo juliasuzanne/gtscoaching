@@ -133,3 +133,7 @@
   url("https://db.onlinewebfonts.com/t/d979624d1cb77d6523f9b3adc2bcef31.ttf")format("truetype"),
   url("https://db.onlinewebfonts.com/t/d979624d1cb77d6523f9b3adc2bcef31.svg#Rotis Sans Serif 55")format("svg");
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

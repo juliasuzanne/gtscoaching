@@ -5,6 +5,9 @@ const style = {
   height: "50vh",
   width: "50vw",
   position: "absolute",
+  // border: 3,
+  // borderStyle: "solid",
+  // borderRadius: 7,
   bottom: 0,
   zIndex: "2",
 };
@@ -18,9 +21,10 @@ export function LeafAnimation2() {
   const Animation = useLottieInteractivity({
     lottieObj,
     mode: "scroll",
+    container: "#main",
     actions: [
       {
-        visibility: [0.4, 0.9],
+        visibility: [0.3, 0.7],
         type: "seek",
         frames: [0, 160],
       },

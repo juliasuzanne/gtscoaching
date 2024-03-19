@@ -12,18 +12,19 @@ import { Rhizome } from "./Rhizome";
 import { Home } from "./Home";
 import { LeafAnimation2 } from "./LeafAnimation2";
 import { LeafTest } from "./LeafTest";
+import { Vine2 } from "./Vine2";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import { Navbar } from "./Navbar";
 import { LeafAnimation } from "./LeafAnimation";
+import { RiveEvents } from "./RiveEvents";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <LeafAnimation2></LeafAnimation2>
-
+      {/* <LeafAnimation2></LeafAnimation2> */}
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
