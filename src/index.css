@@ -43,7 +43,6 @@ body {
 .main{
   color: #34384C;
   padding-bottom: 10%;
-  padding-top: 10%;
   min-height: 50vh;
 
   /* background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1710823136/logoopacity_k92jfp.png");
@@ -84,14 +83,13 @@ body {
   padding-left: 30px;
   padding-right: 30px;
   border-right-color:rgb(41, 46, 53);
-  border-right-width: .2vw;
+  border-right-width: .3vh;
   border-right-style: solid;
   border-bottom-color:rgb(41, 46, 53);
-  border-bottom-width: .2vw;
+  border-bottom-width: .3vh;
   border-bottom-style: solid;
   font-family: "NibPro-SemiBold";
   width: 70%;
-  border-bottom-right-radius: 5px;
   margin: auto;
 
 }
@@ -258,6 +256,13 @@ a {
 .subtitle{
   font-family: "NibPro-BoldItalic";
 }
+@media screen and (max-width: 1508px){
+  textarea {
+    width: 100%;
+    font-size: 1.0em;
+    border-radius: 7px;
+  }
+}
 
 @media screen and (max-width: 768px){
   .headertitle{
@@ -314,10 +319,12 @@ a {
 }
 
 .submitbutton{
-  background: transparent;
+  background: rgb(184, 184, 184);
   border-width: 0px;
+  border-radius: 100px;
   float: right;
-  color: grey;
+  width: 30%;
+  color: rgb(60, 60, 60);
   font-size: 25px;
   font-family: "ForesterRegular";
 
@@ -333,7 +340,7 @@ a {
 
 .submitbutton:hover{
   color:rgba(0, 0, 0, 0.828);
-  background: transparent;
+  background: white;
 
 
 }
@@ -401,12 +408,7 @@ color:rgba(20, 68, 34, 0.828);
 
 }
 
-textarea {
-  width: 100%;
-  font-family: "raleway";
-  font-size: .6em;
-  color: grey;
-}
+
 
 p {
   text-align: left;
@@ -477,10 +479,10 @@ font-family: 'Roboto Mono', monospace;
   position: absolute;
 }
 .riveBox{
-  height: 50vh;
+  height: 100vh;
   z-index: 2;
   pointer-events: none;
-  padding-top: 0;
+  padding-top: 5%;
   padding-left: 40%;
 }
 

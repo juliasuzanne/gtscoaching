@@ -3,7 +3,7 @@ import { useCallback, useEffect, useState, useRef } from "react";
 
 export function Vine() {
   const { rive, RiveComponent } = useRive({
-    src: "vinetest.riv",
+    src: "vineblue.riv",
     stateMachines: "ScrollingBehavior",
     autoplay: true,
     // layout: new RiveLayout({

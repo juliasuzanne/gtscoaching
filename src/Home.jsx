@@ -28,7 +28,6 @@ export function Home() {
         <Button url="/leaf" label="approach"></Button>
         <Button url="/leaf" label="contact"></Button> */}
         <br></br>
-        <br></br>
         {/* <div className="leafwatermark"></div> */}
         <p>Introducing an alternative to traditional recruiting:</p>
         <div className="linel"></div>
