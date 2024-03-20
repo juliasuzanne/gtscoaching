@@ -2,7 +2,7 @@ export function About() {
   return (
     <div>
       <h2 className="headertitle" id="background-square">
-        About: <span className="subtitle">Breaking The Recruitment Mold</span>
+        About: <span className="subtitle">Shaking Up The Standard</span>
         <div className="liner"></div>
       </h2>
 
