@@ -17,7 +17,7 @@ import { Vine2 } from "./Vine2";
 import { About } from "./About";
 import { Approach } from "./Approach";
 import { VineTop } from "./VineTop";
-
+import { Logo } from "./Logo";
 export function Home() {
   const [count, setCount] = useState(0);
 
@@ -29,6 +29,8 @@ export function Home() {
         <Button url="/leaf" label="approach"></Button>
         <Button url="/leaf" label="contact"></Button> */}
         <br></br>
+        <Logo />
+
         {/* <div className="leafwatermark"></div> */}
         <p>Introducing an alternative to traditional recruiting:</p>
         <div className="linel"></div>
@@ -37,14 +39,6 @@ export function Home() {
 
         <h1> GROWTH TALENT SOLUTIONS </h1>
       </div>
-
-      <img width="160px" src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1710822706/gtslogo_mkqhfs.png"></img>
-      <br></br>
-      <br></br>
-
-      <br></br>
-      <br></br>
-      <br></br>
 
       <br></br>
       <br></br>

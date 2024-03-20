@@ -480,6 +480,16 @@ font-family: 'Roboto Mono', monospace;
 }
 
 
+.gtsLogo{
+  position: fixed;
+  top: 0;
+  overflow: auto;
+  right: 0;
+  height: 10vh;
+  width: auto;
+  margin: 1%;
+}
+
 .riveBox{
   height: 100vh;
   z-index: 2;
