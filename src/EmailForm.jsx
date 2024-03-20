@@ -42,6 +42,7 @@ export function EmailForm() {
               </h2>
             </div>
           </div>
+          <div className="break2"> </div>
           <div className="row">
             <div>
               <input name="email" className="form-control" type="email" placeholder="E-mail" />
@@ -74,7 +75,7 @@ export function EmailForm() {
             ))}
           </ul>
           <div className="row">
-            <button className="submitbutton btn btn-secondary mt-3 submit ">Submit</button>
+            <button className="submitbutton btn btn-secondary mt-3 submit ">SEND</button>
           </div>
         </div>
       </form>

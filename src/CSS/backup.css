@@ -1,0 +1,521 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color:rgb(41, 46, 53);
+  background-color: #F2F0F0;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  background-color: #F2F0F0;
+}
+
+.optionscontainer{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.topparagraph{
+  background-color:white;
+  width: 40%;
+  padding: 5%;
+  min-height: 37vh;
+  margin:auto;
+  border-radius: 20px;
+
+}
+#login{
+  width: 75%;
+  margin: auto;
+}
+
+#subtitle{
+  font-family: "NibPro-BoldItalic";
+  font-size: 1.2vw;
+  margin-left: 30%;
+  width: 70%;
+}
+
+
+.main{
+  color: #34384C;
+  padding-bottom: 10%;
+  min-height: 50vh;
+
+  /* background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1710823136/logoopacity_k92jfp.png");
+  background-size: 50vh;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom; */
+
+  
+}
+
+#background-square{
+  padding: 5vh;
+
+}
+
+
+
+.leafbottomright{
+  position:fixed;
+
+}
+
+#main{
+  height: 50vh;
+  z-index: 40;
+  background-color: grey;
+}
+
+.main p {
+  font-size: 3.8vh;
+  font-family: "raleway";
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.main h1 {
+  font-size: 10vw;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-right-color:rgb(41, 46, 53);
+  border-right-width: .3vh;
+  border-right-style: solid;
+  border-bottom-color:rgb(41, 46, 53);
+  border-bottom-width: .3vh;
+  border-bottom-style: solid;
+  font-family: "NibPro-SemiBold";
+  width: 70%;
+  margin: auto;
+
+}
+
+.descriptiontext {
+  font-family: "Maison";
+  font-size: 2.5em;
+  margin-top: 40vh;
+  color:rgb(41, 53, 44);
+  height: clamp(150vh, max-content);
+  margin-bottom: 40vh;
+} 
+
+
+
+a {
+  font-family: "Maison";
+  font-style:normal;
+  font-size: clamp(30px, 4.5vw, 400px);
+  display: block;
+  float: center;
+  text-transform: uppercase;
+  color:rgb(41, 46, 53);
+  text-decoration:none;
+
+}
+
+
+
+.typewriter {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  
+  line-height: 3;
+  overflow-wrap: break-word;
+  font-family: "Maison";
+  font-size: 100%;
+  color:rgb(181, 148, 118);
+  /* border-right: .15em solid orange; The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  /* animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .5s step-end infinite; */
+}
+
+.test {
+  background-color: F2F0F0;
+}
+
+.leafwatermark{
+  background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1710822706/gtslogo_mkqhfs.png");
+  height: 100vh;
+  opacity: .5;
+  position: fixed;
+}
+
+.typingdefs {
+  width: 100%;
+  color: green;
+
+}
+
+.header{
+  background-size: cover;
+  margin: auto;
+  padding-top: 20vh;
+  background-position-x: 300px;
+  background-color:F2F0F0;
+  border-right: rgb(2, 50, 182);
+  border-right-width: 10px;
+  border-style: solid;
+  border-top: none;
+  border-bottom: none;
+
+}
+
+.largetype {
+  color: rgb(115, 218, 67);
+  font-size: 1.5em;
+  font-family: "Times Sans Serif";
+}
+
+
+.monstera {
+  background-image: url("https://media.licdn.com/dms/image/C5622AQGuDe4N34sf1g/feedshare-shrink_2048_1536/0/1637158122570?e=2147483647&v=beta&t=E5kc2Y3lAknISny2_39z4NAENloCS8vR3LW9aXSmy74");
+  /* background-image: url("https://huntimages.s3.us-west-2.amazonaws.com/production/steemhunt/2018-08-31/bf16f593-QbiToy_Blocks.gif"); */
+  /* background-image: url("https://cdn.dribbble.com/users/433929/screenshots/3673237/media/5a85c7995ce4be5598765675c2d0a5a3.gif"); */
+  background-size: cover;
+  background-position-x: -10px;
+  box-shadow: inset 0 0 0 1000px rgba(56, 105, 61, 0.4);
+  height: 100vh;
+  
+}
+
+.lottie {
+  position: fixed;
+  top:0;
+ }
+ 
+ .scrolling-this {
+ 
+    position:fixed;
+    width: 200px;
+    Right: -1%;
+    bottom: -9%;
+  
+ }
+ 
+ .before-scroll {
+   height: 100vh;
+   width: 100%;
+  background-color: white;  
+ }
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 95% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgba(255, 255, 255, 0.519); }
+}
+
+.headertitle{
+  font-family: "NibPro-Black";
+  font-size: 3vw;
+  
+}
+
+.bodycontainer{
+  width: 70%;
+  margin: auto;
+  padding: 5%;
+  background-color: white;
+  margin-bottom: 5%;
+  border-radius: 20px;
+  margin: auto;
+  
+
+}
+
+.linel{
+  background-color: rgb(84, 87, 93);
+  height: .3vh;
+  width: 65%;
+}
+
+.liner{
+  background-color: rgb(84, 87, 93);
+  height: .3vh;
+  width: 65%;
+  float: right;
+}
+
+.number{
+  font-family: "NibPro-Bold";
+  font-size: 2em;
+}
+
+.subtitle{
+  font-family: "NibPro-BoldItalic";
+}
+@media screen and (max-width: 1508px){
+  textarea {
+    width: 100%;
+    font-size: 1.0em;
+    border-radius: 7px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .headertitle{
+    margin: 0;
+    font-size: 5vw;
+    margin-bottom: 30px;
+  }
+  .bodycontainer{
+    width: 75%;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 5%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+  }
+  .bodycontainer p{
+   margin-bottom: 0;
+  }
+
+ 
+
+  .bodycontainer p {
+    font-size: 3vw;
+  }
+
+  textarea {
+    width: 100%;
+    font-family: "raleway";
+    font-size: 1.5em;
+  }
+
+}
+
+.bodycontainer p{
+}
+
+.connector{
+  font-family: "NibPro-BoldItalic";
+}
+
+#contactform{
+  height: 70vh;
+  margin: auto;
+  padding-top: 30vh;
+  text-align: left;
+  color:rgb(36, 25, 69);
+}
+
+.contactwrapper{
+  background-color:#f2f0f0;
+  height: 100vh;
+}
+
+.submitbutton{
+  background: rgb(184, 184, 184);
+  border-width: 0px;
+  border-radius: 100px;
+  float: right;
+  width: 30%;
+  color: rgb(60, 60, 60);
+  font-size: 25px;
+  font-family: "ForesterRegular";
+
+}
+
+.flowers{
+  height: 40vh;
+  position: absolute;
+  padding-bottom: 20px;
+  top: 60vh;
+  border-radius: 40px;
+}
+
+.submitbutton:hover{
+  color:rgba(0, 0, 0, 0.828);
+  background: white;
+
+
+}
+
+input:focus {
+  outline:none;
+}
+
+
+.contactheader{
+  font-size: clamp(16px, 2.5vw, 30px);  text-transform: uppercase;
+  font-family: "Maison";
+  padding-bottom: 3vh;
+
+}
+
+
+.form-control{
+  float: right;
+  margin-bottom: 30px;
+  font-family: "raleway";
+  font-size: 1em;
+  border: none;
+  background: white;
+  border-bottom: 1px solid rgb(59, 31, 9);
+}
+
+.email-outsides{
+  padding-top: 5vh;
+}
+
+li{
+  list-style-type: none;
+}
+
+.headertext{
+  font-size: 1em;
+  color: rgb(184, 205, 172);
+  overflow-wrap: break-word;
+  text-align: center;
+  font-family: "Maison";
+
+}
+
+h4{
+  font-size: clamp(25px, 4vw, 400px);
+
+  font-family: 'Motterdam-K74zp';
+  color: rgba(0, 0, 0, 0.55);
+}
+
+
+a:hover{
+/* text-decoration: line-through;
+text-decoration-color: rgba(0, 128, 255, 0.125);
+text-decoration-thickness: 40px; */
+
+color:rgba(20, 68, 34, 0.828);
+ /* font-size: clamp(35px, 4.8vw, 400px); */
+
+  /* font-family: "Maison"; */
+}
+
+#root{
+
+}
+
+
+
+p {
+  text-align: left;
+  line-height: 1.5;
+  margin: auto;
+  margin-top: 2vh;
+  color:rgba(41, 46, 53, 0.792);
+  font-family: "raleway";
+  font-size: clamp(12px, 1.75vw, 30px);  
+  margin-bottom: 5vh;
+}
+
+#rhizome {
+  fill: rgba(217, 172, 117, 0.795);
+  align-content: center;
+
+
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+#scroll{
+  color: rgb(73, 84, 11);
+  font-size: clamp(30px, 3.5vw, 400px);
+  text-align: center;
+  font-family: "Motterdam-K74zp";
+  line-height: 0;
+
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+
+}
+
+/* sample lottie */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+.first-section {
+ background-color: white;
+  height: 100vh;
+  width: 100%;
+}
+
+
+.second-section {
+
+  height: 100vh;
+  width: 100%;
+ background-color: white; 
+}
+
+.third-section {
+  height: 100vh;
+  width: 100%;
+ background-color: white;  
+}
+
+h1 {
+font-family: 'Roboto Mono', monospace;
+}
+
+
+.rivecontainer{
+  position: absolute;
+}
+
+
+.gtsLogo{
+  position: fixed;
+  top: 0;
+  overflow: auto;
+  right: 0;
+  height: 10vh;
+  width: auto;
+  margin: 1%;
+}
+
+.riveBox{
+  height: 100vh;
+  z-index: 2;
+  pointer-events: none;
+  padding-top: 15%;
+  padding-left: 42%;
+}
+
+.riveBoxTop{
+  height: 100vh;
+  z-index: 2;
+  pointer-events: none;
+  padding-top: 40%;
+  padding-left: 40%;
+  transform: rotate(180deg);
+
+}
+.riveBoxSmall{
+  height: 20vh;
+  z-index: 2;
+  pointer-events: none;
+  padding-top: 10%;
+  padding-left: 10%;
+  transform: rotate(135deg);
+
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

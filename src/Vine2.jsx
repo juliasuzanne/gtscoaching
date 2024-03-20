@@ -1,5 +1,6 @@
 import { useRive, EventType, RiveEventType } from "@rive-app/react-canvas";
 import { useCallback, useEffect, useState, useRef } from "react";
+import "./CSS/rive.css";
 
 export function Vine2() {
   const { rive, RiveComponent } = useRive({

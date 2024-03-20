@@ -1,0 +1,113 @@
+@media screen and (max-width: 3008px){
+
+.rivecontainer{
+  position: absolute;
+}
+
+.riveBox{
+  height: 100vh;
+  z-index: 2;
+  pointer-events: none;
+  padding-top: 15%;
+  padding-left: 42%;
+}
+
+.riveBoxTop{
+  height: 100vh;
+  z-index: 2;
+  pointer-events: none;
+  padding-top: 40%;
+  padding-left: 40%;
+  transform: rotate(180deg);
+
+}
+.riveBoxSmall{
+  height: 20vh;
+  z-index: 2;
+  pointer-events: none;
+  padding-top: 10%;
+  padding-left: 10%;
+  transform: rotate(135deg);
+}
+
+.leafbottomright{
+  position:fixed;
+
+}
+}
+
+@media screen and (max-width: 908px){
+
+  .rivecontainer{
+    position: absolute;
+  }
+  
+  .riveBox{
+    height: 80vh;
+    z-index: 2;
+    pointer-events: none;
+    padding-top: 15%;
+    padding-left: 42%;
+  }
+  
+  .riveBoxTop{
+    height: 80vh;
+    z-index: 2;
+    pointer-events: none;
+    padding-top: 40%;
+    padding-left: 40%;
+    transform: rotate(180deg);
+  
+  }
+  .riveBoxSmall{
+    height: 20vh;
+    z-index: 2;
+    pointer-events: none;
+    padding-top: 10%;
+    padding-left: 10%;
+    transform: rotate(135deg);
+  }
+  
+  .leafbottomright{
+    position:fixed;
+  
+  }
+  }
+
+@media screen and (max-width: 808px){
+
+  .rivecontainer{
+    position: absolute;
+  }
+  
+  .riveBox{
+    height: 50vh;
+    z-index: 2;
+    pointer-events: none;
+    padding-top: 15%;
+    padding-left: 42%;
+  }
+  
+  .riveBoxTop{
+    height: 50vh;
+    z-index: 2;
+    pointer-events: none;
+    padding-top: 40%;
+    padding-left: 40%;
+    transform: rotate(180deg);
+  
+  }
+  .riveBoxSmall{
+    height: 20vh;
+    z-index: 2;
+    pointer-events: none;
+    padding-top: 10%;
+    padding-left: 10%;
+    transform: rotate(135deg);
+  }
+  
+  .leafbottomright{
+    position:fixed;
+  
+  }
+  }

@@ -1,5 +1,6 @@
 import { useRive, useStateMachineInput, onLoad, Fit, Layout as RiveLayout, Alignment } from "@rive-app/react-canvas";
 import { useCallback, useEffect, useState, useRef } from "react";
+import "./CSS/rive.css";
 
 export function VineTop() {
   const { rive, RiveComponent } = useRive({

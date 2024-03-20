@@ -24,44 +24,35 @@ export function Home() {
 
   return (
     <>
-      <div className="main">
+      <div className="main" id="main">
         {/* <div className="buttons"> */}
         {/* <Button url="/leaf" label="about"></Button>
         <Button url="/leaf" label="approach"></Button>
         <Button url="/leaf" label="contact"></Button> */}
         <br></br>
         <Logo />
-
         {/* <div className="leafwatermark"></div> */}
-        <p>Introducing an alternative to traditional recruiting:</p>
         <div className="linel"></div>
         <br></br>
         <br></br>
 
         <h1> GROWTH TALENT SOLUTIONS </h1>
+        <br></br>
+        <p>Your alternative to traditional recruiting</p>
       </div>
 
-      <br></br>
-      <br></br>
-      <br></br>
-
-      <br></br>
-
+      <div className="break"></div>
       <About></About>
-      <br></br>
-      <br></br>
+      <div className="break"></div>
 
       <Approach></Approach>
       {/* <Vine></Vine> */}
       <Vine></Vine>
       <VineTop></VineTop>
       {/* <VineSmall></VineSmall> */}
-      <br></br>
-      <br></br>
+      <div className="break"></div>
 
-      <Fade>
-        <EmailForm></EmailForm>
-      </Fade>
+      <EmailForm></EmailForm>
     </>
   );
 }

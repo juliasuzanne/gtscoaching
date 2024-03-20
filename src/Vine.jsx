@@ -1,5 +1,6 @@
 import { useRive, useStateMachineInput, onLoad, Fit, Layout as RiveLayout, Alignment } from "@rive-app/react-canvas";
 import { useCallback, useEffect, useState, useRef } from "react";
+import "./CSS/rive.css";
 
 export function Vine() {
   const { rive, RiveComponent } = useRive({
@@ -22,7 +23,7 @@ export function Vine() {
 
       const scrollCallback = () => {
         const scrollOffset = bodyParent.scrollTop;
-        const scrollPosValue = (150 * scrollOffset) / (pageLength - bodyParent.clientHeight);
+        const scrollPosValue = (87 * scrollOffset) / (pageLength - bodyParent.clientHeight);
         scrollPos.value = scrollPosValue;
       };
       scrollListener = document.addEventListener("scroll", scrollCallback);
