@@ -16,6 +16,7 @@ import { Vine } from "./Vine";
 import { Vine2 } from "./Vine2";
 import { About } from "./About";
 import { Approach } from "./Approach";
+import { VineTop } from "./VineTop";
 
 export function Home() {
   const [count, setCount] = useState(0);
@@ -58,6 +59,7 @@ export function Home() {
       <Approach></Approach>
       {/* <Vine></Vine> */}
       <Vine></Vine>
+      <VineTop></VineTop>
       <br></br>
       <br></br>
 

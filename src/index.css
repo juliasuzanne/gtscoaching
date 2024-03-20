@@ -478,12 +478,24 @@ font-family: 'Roboto Mono', monospace;
 .rivecontainer{
   position: absolute;
 }
+
+
 .riveBox{
   height: 100vh;
   z-index: 2;
   pointer-events: none;
-  padding-top: 5%;
+  padding-top: 15%;
+  padding-left: 42%;
+}
+
+.riveBoxTop{
+  height: 100vh;
+  z-index: 2;
+  pointer-events: none;
+  padding-top: 40%;
   padding-left: 40%;
+  transform: rotate(180deg);
+
 }
 
 @tailwind base;
