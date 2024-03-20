@@ -22,7 +22,7 @@ export function Vine() {
 
       const scrollCallback = () => {
         const scrollOffset = bodyParent.scrollTop;
-        const scrollPosValue = (80 * scrollOffset) / (pageLength - bodyParent.clientHeight);
+        const scrollPosValue = (150 * scrollOffset) / (pageLength - bodyParent.clientHeight);
         scrollPos.value = scrollPosValue;
       };
       scrollListener = document.addEventListener("scroll", scrollCallback);
