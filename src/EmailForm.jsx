@@ -57,10 +57,9 @@ export function EmailForm() {
             </div>
           </div>
           <div className="row">
-            <div className="col-sm-12 messagewidth">
-              <p>
-                <textarea name="message" type="text" className="textarea" placeholder="Message"></textarea>
-              </p>
+            <div className="col-sm-12">
+              <textarea name="message" type="text" className="textarea" placeholder="Message"></textarea>
+
               {/* <input name="message" className="textarea form-control" type="text" /> */}
             </div>
           </div>

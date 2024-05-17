@@ -1,13 +1,6 @@
 @media screen and (max-width: 3008px){
 
   
-  textarea {
-    width: 100%;
-    font-size: .6em;
-    border-radius: 10px;
-    font-family: "raleway";
-
-  }
   .submitbutton{
     background: transparent;
     border-radius: 10px;
@@ -33,14 +26,6 @@
 
 @media screen and (max-width: 768px){
 
-  
-  textarea {
-    width: 100%;
-    font-size: 2.5vh;
-    border-radius: 7px;
-    font-family: "raleway";
-
-  }
 
   .submitbutton{
     background: transparent;
@@ -80,6 +65,16 @@
 }
 
 
+  
+textarea {
+  width: 100%;
+  font-size: 1.1em;
+  border-radius: 7px;
+  min-height: 50px;
+  padding: .4em;
+  font-family: "raleway";
+
+}
 
 #login{
   width: 75%;
