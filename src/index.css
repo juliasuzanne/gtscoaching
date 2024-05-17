@@ -35,12 +35,24 @@ body {
   color: rgb(255, 255, 255);
 }
 
+
+
 #nav-item{
   display: inline-flex;
   padding-left: 1em;
 }
 
 @media screen and (max-width: 3008px){
+
+  .gtsLogoList {
+    visibility:visible;
+    position: fixed;
+    right: 0;
+    text-align: right;
+    padding-top: 1em;
+    display: block;
+    margin: 1%;
+  }
 
   .break2{
     height: 2vh;
@@ -104,6 +116,16 @@ body {
     width: auto;
     margin: 1%;
   }
+
+  .hideOnComp{
+    visibility: hidden;
+  }
+
+  #nav-item-list:hover{
+    color:rgb(117, 124, 154);
+
+  }
+
   
 
   .topparagraph{
@@ -154,6 +176,19 @@ p {
 }
 
 @media screen and (max-width:868px){
+  .hideOnComp{
+    visibility: visible;
+  }
+
+  .gtsLogoList {
+    visibility: hidden;
+    position: fixed;
+    right: 0;
+    text-align: right;
+    padding-top: 1em;
+    display: block;
+    margin: 1%;
+  }
 
   .break {
     height: 2vh;
