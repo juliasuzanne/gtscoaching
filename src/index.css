@@ -47,6 +47,7 @@ body {
   .gtsLogoList {
     visibility:visible;
     position: fixed;
+    font-family: "Raleway-SemiBold";
     right: 0;
     text-align: right;
     padding-top: 1em;

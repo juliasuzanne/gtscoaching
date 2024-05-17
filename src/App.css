@@ -21,7 +21,12 @@
     url("/src/assets/NibPro-LightItalic.ttf") format("truetype"),
 
 }
+@font-face {
+  font-family: "Raleway-SemiBold";   /*Can be any text*/
+  src: local("Raleway-SemiBold"),
+    url("/src/assets/Raleway-SemiBold.ttf") format("truetype"),
 
+}
 
 @font-face {
   font-family: "NibPro-Regular";   /*Can be any text*/
