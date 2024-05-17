@@ -4,6 +4,7 @@ import AnimatedCursor from "react-animated-cursor";
 import { TypingDefinitions } from "./TypingDefinitions";
 import { motion, useScroll } from "framer-motion";
 import viteLogo from "/vite.svg";
+import { Footer } from "./Footer";
 import "./App.css";
 import { EmailForm } from "./EmailForm";
 import { Descriptions } from "./Descriptions";
@@ -25,12 +26,14 @@ function App() {
   return (
     <>
       {/* <LeafAnimation2></LeafAnimation2> */}
+
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/leaf" element={<LeafAnimation />} />
         </Routes>
       </BrowserRouter>
+      <Footer></Footer>
 
       <div className="leafbottomright"></div>
 

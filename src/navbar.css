@@ -11,6 +11,10 @@
   background-color: transparent;
 }
 
+.navbar-toggler2 {
+  border-style: none;
+}
+
 
 
 #offcanvasNavbar {
@@ -26,3 +30,5 @@
 
 .navbutton_description:hover {
 }
+
+
