@@ -36,9 +36,9 @@ export function Home() {
         <br></br>
         <br></br>
 
-        <h1> GROWTH TALENT SOLUTIONS </h1>
+        <h1> GROWTH TALENT PATHWAYS </h1>
         <br></br>
-        <p>Your alternative to traditional recruiting</p>
+        <p>Workforce entrance coaching</p>
       </div>
 
       <div className="break"></div>

@@ -38,7 +38,7 @@ export function EmailForm() {
           <div className="row">
             <div className="email-outsides">
               <h2 className="headertitle">
-                Are You Ready To Grow Your Business? <span className="connector">Let's Connect!</span>
+                Ready To Get Started? <span className="connector">Reach Out!</span>
               </h2>
             </div>
           </div>

@@ -4,7 +4,7 @@ import "./CSS/rive.css";
 
 export function VineSmall() {
   const { rive, RiveComponent } = useRive({
-    src: "vineblue.riv",
+    src: "vinegreen.riv",
     stateMachines: "ScrollingBehavior",
     autoplay: true,
     // layout: new RiveLayout({

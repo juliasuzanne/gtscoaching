@@ -14,19 +14,26 @@ export function Approach() {
 
       <div className="container.fluid optionscontainer">
         <div className="row">
-          <p className="col-sm-12 col-md-6 topparagraph">
+          <p className="col-sm-12 col-md-4 topparagraph">
             {" "}
-            <span className="number">An Internal, Fractional Resource</span>
+            <span className="number">Executive Functioning Skills</span>
             <p>
-              If you need a temporary consultant to come in and provide the expertise you need to grow your team, think
-              of me as an affordable Chief Talent Officer, as needed, to manage all your talent needs;
+              If you need support with daily task management and productivity, I can teach strategies and coach habits.
             </p>
           </p>
-          <p className="col-sm-12 col-md-6 topparagraph">
-            <span className="number">Bespoke Searches</span>{" "}
+          <p className="col-sm-12 col-md-4 topparagraph">
+            <span className="number"> Networking and Interviewing Skills</span>{" "}
             <p>
-              If you need help filling an important, niche role, I am a cost-effective recruiter conducting strategic,
-              bespoke searches.
+              Having been on both sides of the interviewing process, I have both the expertise to offer advice and the
+              support to build confidence in introducing yourself to potential employers.
+            </p>
+          </p>
+          <p className="col-sm-12 col-md-4 topparagraph">
+            <span className="number">Finding Purpose</span>{" "}
+            <p>
+              I want to help you find not just any path, but the path that's right for you. Through active listening and
+              industry knowledge, we can break down what can feel like a complicated decision into parts to find this
+              direction.{" "}
             </p>
           </p>
         </div>
