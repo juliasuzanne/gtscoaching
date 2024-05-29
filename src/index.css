@@ -3,7 +3,7 @@
   line-height: 1.5;
   font-weight: 400;
   color:rgb(52, 76, 68);
-  background-color: #f0f2f0;
+  background-color: #e5eee5;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -11,7 +11,7 @@
 
 }
 body {
-  background-color: #F2F0F0;
+  background-color: #d2d7d2;
   color:rgb(52,56,76);
 
 }
@@ -78,7 +78,7 @@ body {
     width: 70%;
     margin: auto;
     padding: 5%;
-    background-color: white;
+    background-color: rgb(240, 244, 237);
     margin-bottom: 5%;
     border-radius: 20px;
     margin: auto;
@@ -273,7 +273,7 @@ p {
     width: 88%;
     margin: auto;
     padding: 5%;
-    background-color: white;
+    background-color: rgb(240, 244, 237);;
     margin-bottom: 5%;
     border-radius: 20px;
     margin: auto;
