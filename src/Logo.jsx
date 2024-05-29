@@ -6,7 +6,7 @@ export function Logo() {
           alt="Growth Talent Solutions, Sara Kontalonis Recruiting"
           className="gtsLogo"
           width="160px"
-          src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1717026279/GTPlogo_xubein.png"
+          src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1717026957/logo_lb4l5f.png"
         ></img>
       </a>
       <ul className="gtsLogoList">
