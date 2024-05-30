@@ -24,7 +24,7 @@ body {
   font-family: "raleway";
   padding: .5em;
   line-height: 2em;
-  color: rgb(180, 205, 188);
+  color: rgb(217, 234, 222);
 }
 
 #nav-item:hover{
@@ -32,7 +32,7 @@ body {
   position:sticky;
   bottom: 0;
   margin: 0;
-  color: rgb(255, 255, 255);
+  color: rgb(161, 200, 171);
 }
 
 
