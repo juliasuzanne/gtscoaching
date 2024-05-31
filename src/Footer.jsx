@@ -21,7 +21,7 @@ export function Footer() {
 
       <ul className="footer">
         <li className="nav-item">
-          <a className="nav-link">©2024 Growth Talent Solutions</a>
+          <a className="nav-link">©2024 Growth Talent Pathways</a>
         </li>
       </ul>
     </div>
