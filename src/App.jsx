@@ -5,6 +5,7 @@ import { TypingDefinitions } from "./TypingDefinitions";
 import { motion, useScroll } from "framer-motion";
 import viteLogo from "/vite.svg";
 import { Footer } from "./Footer";
+import { CoachingOfferings } from "./CoachingOfferings";
 import "./App.css";
 import { EmailForm } from "./EmailForm";
 import { Descriptions } from "./Descriptions";

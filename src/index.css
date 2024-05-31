@@ -16,6 +16,17 @@ body {
 
 }
 
+.coachingList {
+  font-size: 1em;
+  line-height: 2em;
+  padding-top: 20px;
+}
+
+.elevator {
+  margin-left: 10%; 
+  margin-right: 10%; text-align: center;
+}
+
 .footer{
   background-color:rgb(52, 76, 68);
   position:sticky;
@@ -132,11 +143,15 @@ body {
 
   .topparagraph{
     background-color:rgb(245,245,245);
-    width: 30%;
     padding: 5%;
     margin:auto;
     border-radius: 20px;
   
+  }
+
+  .firstWord {
+    font-family: "NibPro-Bold";
+    padding-right: 5px;
   }
 
 p {
@@ -152,7 +167,7 @@ p {
 
 .headertitle{
   font-family: "NibPro-Black";
-  font-size: 3vw;
+  font-size: 1.8em;
   color:rgb(52, 76, 68);
 
 }
@@ -260,7 +275,7 @@ p {
 
   .headertitle{
     margin: 0;
-    font-size: 5.5vw;
+    font-size: 1.5em;
     margin-bottom: 30px;
   }
 

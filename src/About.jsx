@@ -1,27 +1,29 @@
 export function About() {
   return (
     <div>
-      <h2 className="headertitle" id="background-square">
-        About: <span className="subtitle">You Are Not Alone</span>
-        <div className="liner"></div>
-      </h2>
-
-      <h2 className="headertitle" id="background-phone">
+      {/* <h2 className="headertitle" id="background-phone">
         About:
         <br></br>
         <div className="liner"></div>
-      </h2>
+      </h2> */}
 
       <div className="bodycontainer">
         <p>
-          <span className="emphasizep">
+          <h2 className="headertitle">
+            Things I believe in<span className="subtitle"> </span>
+            <div className="liner"></div>
+          </h2>
+          <p>
             {" "}
-            Transitioning from college to a professional environment can be intimidating and challenging to know where
-            to start.{" "}
-          </span>
-          With guidance from someone who has an extensive background in recruiting and networking, it becomes much less
-          painless. Workforce skills support not only the transition from school to work, but will benefit you
-          throughout your career.
+            These foundational habits are key to ensuring long term success and fulfillment in your career and beyond.
+            Investing in your future today and build the habits that will support your growth and achievements
+            throughout life.
+          </p>
+          <p>
+            Jobs aren’t meant to fulfill all your life’s purposes, become your sole passion or be your lifelong
+            commitment. It’s essential to recognize the importance of your mental, physical and emotional health.
+            Letting go of the notion that a dream job will save you can lead to greater fulfillment in your career.
+          </p>
         </p>
         {/* <br></br>
         <p>
