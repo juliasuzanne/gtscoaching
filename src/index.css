@@ -119,7 +119,7 @@ body {
 }
 
   .main p {
-    font-size: 4.8vh;
+    font-size: 4.3vh;
     font-family: "Raleway-SemiBold";
     text-transform: uppercase;
     text-align: center;
@@ -242,8 +242,8 @@ p {
   }
 
   .main p {
-    font-size: 2.2vh;
-    font-family: "raleway";
+    font-size: 2.5vh;
+    font-family: "Raleway-SemiBold";
     text-transform: uppercase;
     text-align: center;
   }

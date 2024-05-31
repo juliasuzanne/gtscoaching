@@ -66,7 +66,9 @@ export function Home() {
 
       <CoachingOfferings></CoachingOfferings>
       <div className="break"></div>
-
+      <br></br>
+      <br></br>
+      <br></br>
       <About></About>
 
       {/* <Vine></Vine> */}
@@ -74,7 +76,9 @@ export function Home() {
       <VineTop></VineTop>
       {/* <VineSmall></VineSmall> */}
       <div className="break"></div>
-
+      <br></br>
+      <br></br>
+      <br></br>
       <EmailForm></EmailForm>
     </>
   );
