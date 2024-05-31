@@ -150,7 +150,9 @@ body {
   }
 
   .firstWord {
-    font-family: "NibPro-Bold";
+    font-family: "Raleway-SemiBold";
+
+    font-weight: 900;
     padding-right: 5px;
   }
 

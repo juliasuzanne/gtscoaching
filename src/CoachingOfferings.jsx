@@ -14,11 +14,10 @@ export function CoachingOfferings() {
             <span className="subtitle"> </span>
             <div className="liner"></div>
           </h2>
+          <span className="subtitle">
+            A tailored plan for each client will consist of the following focus areas, depending on need:
+          </span>
           <ul className="coachingList">
-            <li>
-              <span className="firstWord">Customizable</span>
-              <ul>could be specific needs or combination. Nimble, Focused and Effective.</ul>
-            </li>
             <li>
               <span className="firstWord">Front end personalized consultation</span>
               <ul>

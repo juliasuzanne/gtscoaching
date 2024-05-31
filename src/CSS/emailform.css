@@ -1,52 +1,31 @@
-@media screen and (max-width: 3008px){
 
   
   .submitbutton{
-    background: transparent;
-    border-radius: 10px;
-    text-decoration: underline;
-    float: right;
-    width: 10%;
-    color: rgb(52, 76, 68);
-    font-size: 20px;
+    border-radius: 500px;
+    margin-left: 10px;
+    width: 100px;
+    padding-left: 1em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-right: 1em;
+    border-width: 1px;
     font-family: "NibPro-Bold";
-    border-width: 0px;
+    background-color: #546D55;
+    color: rgb(255, 255, 255);
+
 
   }
 
   .submitbutton:hover{
     color: rgb(94, 98, 121);
-    font-family: "NibPro-BoldItalic";
-    background: transparent;
+    background: rgb(223, 231, 223);
 
   
   }
   
-}
-
-@media screen and (max-width: 768px){
 
 
-  .submitbutton{
-    background: transparent;
-    border-radius: 10px;
-    text-decoration: underline;
-    float: right;
-    width: 30%;
-    color: rgb(52, 76, 68);
-    font-size: 15px;
-    font-family: "NibPro-Bold";
-    border-width: 0px;
 
-  }
-
-  .submitbutton:hover{
-    color: rgb(94, 98, 121);
-    font-family: "NibPro-BoldItalic";
-  
-  }
-  
-}
 
 
 
