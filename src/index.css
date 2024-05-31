@@ -16,6 +16,10 @@ body {
 
 }
 
+.subtitleGTP
+{
+  font-family: "Raleway-SemiBold";
+}
 .coachingList {
   font-size: 1em;
   line-height: 2em;
@@ -115,8 +119,8 @@ body {
 }
 
   .main p {
-    font-size: 3.8vh;
-    font-family: "raleway";
+    font-size: 4.8vh;
+    font-family: "Raleway-SemiBold";
     text-transform: uppercase;
     text-align: center;
   }

@@ -40,7 +40,7 @@ export function Home() {
 
         <h1> GROWTH TALENT PATHWAYS </h1>
         <br></br>
-        <p>Workforce entrance coaching</p>
+        <p className="subtitleGTP">Workforce entrance coaching</p>
       </div>
 
       {/* <div className="break"></div> */}
