@@ -62,13 +62,13 @@ export function Home() {
       <br></br>
       <br></br>
       <br></br>
-
-      <div className="break"></div>
-
-      <About></About>
       <div className="break"></div>
 
       <CoachingOfferings></CoachingOfferings>
+      <div className="break"></div>
+
+      <About></About>
+
       {/* <Vine></Vine> */}
       <Vine></Vine>
       <VineTop></VineTop>
